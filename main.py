@@ -5,7 +5,7 @@ import sys
 
 def start_browser():
     webapp = QtWidgets.QApplication(sys.argv)
-    webapp.setApplicationName("Browser@alice")
+    webapp.setApplicationName("Browser")
     if len(sys.argv) <=1:
         _ = MainWindow()
     else:

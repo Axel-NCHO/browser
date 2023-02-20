@@ -110,7 +110,7 @@ class MainWindow(QMainWindow):
         self.show()
 
         # setting window title
-        self.setWindowTitle("Browser@alice")
+        self.setWindowTitle("Browser")
 
     # method for adding new tab
     def add_new_tab(self, qurl=None, label="Blank"):
@@ -184,7 +184,7 @@ class MainWindow(QMainWindow):
         title = self.tabs.currentWidget().page().title()
 
         # set the window title
-        self.setWindowTitle("% s - Browser@alice" % title)
+        self.setWindowTitle("% s - Browser" % title)
 
     # action to go home
     def navigate_home(self):
